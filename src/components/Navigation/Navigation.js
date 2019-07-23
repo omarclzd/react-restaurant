@@ -21,9 +21,9 @@ class Navigation extends Component {
 
   render() {
     return (
-      <MDBNavbar color="indigo" dark expand="md">
+      <MDBNavbar color="danger-color-dark" dark expand="md">
         <MDBNavbarBrand>
-          <strong className="white-text">Navbar</strong>
+          <strong className="white-text">Restaurant</strong>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
