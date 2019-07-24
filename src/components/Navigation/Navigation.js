@@ -21,7 +21,7 @@ class Navigation extends Component {
 
   render() {
     return (
-      <MDBNavbar color="danger-color-dark" dark expand="md">
+      <MDBNavbar color=" deep-orange darken-4" dark expand="md">
         <MDBNavbarBrand>
           <strong className="white-text">Restaurant</strong>
         </MDBNavbarBrand>
