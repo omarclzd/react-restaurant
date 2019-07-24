@@ -1,6 +1,6 @@
 import React from "react";
 
-import { MDBContainer, MDBRow, MDBCol, MDBAnimation } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol, MDBAnimation, MDBIcon } from "mdbreact";
 
 function HomePage() {
   return (
@@ -18,7 +18,22 @@ function HomePage() {
         </MDBCol>
       </MDBRow>
       <MDBRow className="text-center">
-        <MDBCol />
+        <MDBCol>
+          <img
+            src="https://i.imgur.com/gpRyUJZ.png"
+            className="img-fluid"
+            alt="img"
+          />
+        </MDBCol>
+      </MDBRow>
+      <MDBRow className="text-center">
+        <MDBCol>
+          <MDBAnimation type="bounce">
+            <MDBIcon fab icon="facebook-square" size="2x" className="m-3" />
+            <MDBIcon fab icon="instagram" size="2x" className="m-3" />
+            <MDBIcon fab icon="tumblr" size="2x" className="m-3" />
+          </MDBAnimation>
+        </MDBCol>
       </MDBRow>
     </MDBContainer>
   );
