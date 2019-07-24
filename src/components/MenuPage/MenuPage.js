@@ -17,17 +17,17 @@ function MenuPage() {
       <MDBRow className="text-center">
         <MDBCol>
           <MDBAnimation type="bounce">
-            <h1>
-              <strong>Omar's Restaurant</strong>
-            </h1>
+            <img
+              src="https://i.imgur.com/qyz3OGI.png"
+              className="img-fluid"
+              alt="img"
+            />
           </MDBAnimation>
-          <h2>Mexican Cuizine</h2>
-
-          <h3>AUSTIN, TEXAS</h3>
         </MDBCol>
       </MDBRow>
       <MDBRow className="text-center">
         <MDBCol>
+          <h3 className="text-left font-weight-bold">Menu</h3>
           <MDBTable
             // borderless
             hover
