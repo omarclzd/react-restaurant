@@ -5,7 +5,6 @@ import {
   MDBRow,
   MDBCol,
   MDBAnimation,
-  MDBIcon,
   MDBCarousel,
   MDBCarouselInner,
   MDBCarouselItem,
@@ -17,7 +16,7 @@ function GalleryPage() {
     <MDBContainer>
       <MDBRow className="text-center">
         <MDBCol>
-          <MDBAnimation type="bounce">
+          <MDBAnimation>
             <img
               src="https://i.imgur.com/qyz3OGI.png"
               className="img-fluid"
@@ -28,7 +27,16 @@ function GalleryPage() {
       </MDBRow>
       <MDBRow className="text-center">
         <MDBCol>
-          <h3 className="text-left font-weight-bold">Gallery</h3>
+          <h2 className="h1-responsive font-weight-bold text-center my-5">
+            Gallery
+          </h2>
+          <p className="text-center w-responsive mx-auto mb-5">
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+
           <MDBCarousel
             activeItem={1}
             length={3}
@@ -42,7 +50,7 @@ function GalleryPage() {
                 <MDBView>
                   <img
                     className="d-block w-100"
-                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg"
+                    src="https://i.imgur.com/GlCoHkY.jpg"
                     alt="First slide"
                   />
                 </MDBView>
@@ -51,7 +59,7 @@ function GalleryPage() {
                 <MDBView>
                   <img
                     className="d-block w-100"
-                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg"
+                    src="https://i.imgur.com/PYbTWNC.jpg"
                     alt="Second slide"
                   />
                 </MDBView>
@@ -60,7 +68,7 @@ function GalleryPage() {
                 <MDBView>
                   <img
                     className="d-block w-100"
-                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg"
+                    src="https://i.imgur.com/ZdFTtGi.jpg"
                     alt="Third slide"
                   />
                 </MDBView>
@@ -70,13 +78,7 @@ function GalleryPage() {
         </MDBCol>
       </MDBRow>
       <MDBRow className="text-center">
-        <MDBCol>
-          <MDBAnimation type="bounce">
-            <MDBIcon fab icon="facebook-square" size="2x" className="m-3" />
-            <MDBIcon fab icon="instagram" size="2x" className="m-3" />
-            <MDBIcon fab icon="tumblr" size="2x" className="m-3" />
-          </MDBAnimation>
-        </MDBCol>
+        <MDBCol />
       </MDBRow>
     </MDBContainer>
   );

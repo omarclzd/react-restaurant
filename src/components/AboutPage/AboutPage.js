@@ -18,7 +18,7 @@ function AboutPage() {
     <MDBContainer>
       <MDBRow className="text-center">
         <MDBCol>
-          <MDBAnimation type="bounce">
+          <MDBAnimation>
             <img
               src="https://i.imgur.com/qyz3OGI.png"
               className="img-fluid"
@@ -110,13 +110,7 @@ function AboutPage() {
         </MDBCol>
       </MDBRow>
       <MDBRow className="text-center">
-        <MDBCol>
-          <MDBAnimation type="bounce">
-            <MDBIcon fab icon="facebook-square" size="2x" className="m-3" />
-            <MDBIcon fab icon="instagram" size="2x" className="m-3" />
-            <MDBIcon fab icon="tumblr" size="2x" className="m-3" />
-          </MDBAnimation>
-        </MDBCol>
+        <MDBCol />
       </MDBRow>
     </MDBContainer>
   );

@@ -1,10 +1,26 @@
 import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import {
+  MDBCol,
+  MDBContainer,
+  MDBRow,
+  MDBFooter,
+  MDBAnimation,
+  MDBIcon
+} from "mdbreact";
 
 const Footer = () => {
   return (
     <MDBFooter color="deep-orange darken-4" className="font-small pt-4 mt-4">
       <MDBContainer fluid className="text-center text-md-left">
+        <MDBRow>
+          <MDBCol className="text-center">
+            <MDBAnimation>
+              <MDBIcon fab icon="facebook-square" size="2x" className="m-3" />
+              <MDBIcon fab icon="instagram" size="2x" className="m-3" />
+              <MDBIcon fab icon="tumblr" size="2x" className="m-3" />
+            </MDBAnimation>
+          </MDBCol>
+        </MDBRow>
         <MDBRow>
           <MDBCol md="6">
             <h5 className="title">Footer Content</h5>
@@ -14,7 +30,6 @@ const Footer = () => {
             </p>
           </MDBCol>
           <MDBCol md="6">
-            <h5 className="title">Links</h5>
             <ul>
               <li className="list-unstyled">
                 <a href="#!">Link 1</a>
