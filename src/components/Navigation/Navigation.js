@@ -23,7 +23,7 @@ class Navigation extends Component {
     return (
       <MDBNavbar color=" deep-orange darken-4" dark expand="md">
         <MDBNavbarBrand>
-          <strong className="white-text">Restaurant</strong>
+          <strong className="white-text">SPICY</strong>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
