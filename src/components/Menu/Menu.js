@@ -43,18 +43,6 @@ const Menu = () => {
               <td>The Whatever</td>
               <td>$8</td>
             </tr>
-            <tr>
-              <td>The Whatever</td>
-              <td>$8</td>
-            </tr>
-            <tr>
-              <td>The Whatever</td>
-              <td>$8</td>
-            </tr>
-            <tr>
-              <td>The Whatever</td>
-              <td>$8</td>
-            </tr>
           </MDBTableBody>
         </MDBTable>
       </MDBCardBody>
