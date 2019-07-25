@@ -24,68 +24,36 @@ const Menu = () => {
           </MDBTableHead>
           <MDBTableBody>
             <tr>
-              <td>
-                <h5>The Whatever</h5>
-              </td>
-              <td>
-                <h5>$8</h5>
-              </td>
+              <td>The Whatever</td>
+              <td>$8</td>
             </tr>
             <tr>
-              <td>
-                <h5>The Whatever</h5>
-              </td>
-              <td>
-                <h5>$8</h5>
-              </td>
+              <td>The Whatever</td>
+              <td>$8</td>
             </tr>
             <tr>
-              <td>
-                <h5>The Whatever</h5>
-              </td>
-              <td>
-                <h5>$8</h5>
-              </td>
+              <td>The Whatever</td>
+              <td>$8</td>
             </tr>
             <tr>
-              <td>
-                <h5>The Whatever</h5>
-              </td>
-              <td>
-                <h5>$8</h5>
-              </td>
+              <td>The Whatever</td>
+              <td>$8</td>
             </tr>
             <tr>
-              <td>
-                <h5>The Whatever</h5>
-              </td>
-              <td>
-                <h5>$8</h5>
-              </td>
+              <td>The Whatever</td>
+              <td>$8</td>
             </tr>
             <tr>
-              <td>
-                <h5>The Whatever</h5>
-              </td>
-              <td>
-                <h5>$8</h5>
-              </td>
+              <td>The Whatever</td>
+              <td>$8</td>
             </tr>
             <tr>
-              <td>
-                <h5>The Whatever</h5>
-              </td>
-              <td>
-                <h5>$8</h5>
-              </td>
+              <td>The Whatever</td>
+              <td>$8</td>
             </tr>
             <tr>
-              <td>
-                <h5>The Whatever</h5>
-              </td>
-              <td>
-                <h5>$8</h5>
-              </td>
+              <td>The Whatever</td>
+              <td>$8</td>
             </tr>
           </MDBTableBody>
         </MDBTable>

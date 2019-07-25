@@ -37,12 +37,6 @@ const Footer = () => {
               <li className="list-unstyled">
                 <a href="#!">Link 2</a>
               </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 3</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 4</a>
-              </li>
             </ul>
           </MDBCol>
         </MDBRow>

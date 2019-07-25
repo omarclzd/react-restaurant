@@ -20,7 +20,7 @@ function HomePage() {
         <MDBCol>
           <img
             src="https://i.imgur.com/NgH7jFA.png"
-            className="img-fluid m-5"
+            className="img-fluid m-2"
             alt="img"
           />
         </MDBCol>
